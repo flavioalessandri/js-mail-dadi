@@ -73,10 +73,10 @@ button:hover{
 
 input{
   text-align: center;
-  background-color: rgb(61,64,91);
+  background-color: lightgrey;
   padding:4px;
   border-radius: 5px;
-  color:white;
+  color:rgb(61,64,91);
 }
 
 select{
