@@ -1,12 +1,15 @@
 
+
+//aggiungo variabile bottone
 var btn = document.getElementById("btn");
+//aggiungo lista - array di elementi stringa
 var lista= ["giacomo", "carlo", "maria", "umberto", "admin", "gino"];
 console.log(lista);
 
-
-
+//aggiungo un "ascoltatore" al click del mio bottone
 btn.addEventListener("click", function(){
-  var verify = false;
+
+  var verify = false;   //variabile booleana di appoggio
   var mail = document.getElementById("mail").value;
   console.log("hai digitato" , mail);
 
@@ -18,6 +21,7 @@ btn.addEventListener("click", function(){
     }
   }
 
+  // esco dal for e richiamo la variabile di appoggio
   if (verify == true){
   document.getElementById("risultato").innerHTML = mail + " BENVENUTO!";
   }
